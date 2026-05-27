@@ -1,0 +1,18 @@
+body  {
+    display: flex;
+    justify-content: center;
+}
+
+form  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group  {
+    display: flex;
+    flex-direction: row; /* This puts the label and imput side-by-side */
+    justify-content: space-between; /* Pushes the label left and imput right */
+    align-items: center; /*Keeps them vertically centerd with each other */
+    width: 100%; /* Ensures the group take up the full width of the form */ 
+}
